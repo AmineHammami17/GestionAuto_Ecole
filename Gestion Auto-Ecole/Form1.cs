@@ -35,5 +35,10 @@ namespace Gestion_Auto_Ecole
             menu.Show();
             this.Hide();
         }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

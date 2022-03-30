@@ -17,51 +17,35 @@ namespace Gestion_Auto_Ecole
             InitializeComponent();
         }
 
-       
-
-        private void Moniteurs_Load(object sender, EventArgs e)
-        {
-            DgvMoniteurs.Rows.Add(new object[] { "1", "Hammami", "Amine", "1000", "20", "27898205" });
-            DgvMoniteurs.Rows.Add(new object[] { "2", "Sancho", "Jadon", "5000", "40", "99205999" });
-
-        }
-
-        private void BtnSave_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnCancel_Click(object sender, EventArgs e)
-        {
-            DgvMoniteurs.Height = 498;
-            LblTitle.Text = "";
-            TablePnlTop.Enabled = true;
-
-        }
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnAjouter_Click(object sender, EventArgs e)
         {
             DgvMoniteurs.Height = 0;
             LblTitle.Text = "Ajouter Moniteur";
             TablePnlTop.Enabled = false;
-
         }
 
-        private void BtnEdit_Click(object sender, EventArgs e)
+        private void BtnEditer_Click(object sender, EventArgs e)
         {
             DgvMoniteurs.Height = 0;
             LblTitle.Text = "Editer Moniteur";
-            TablePnlTop.Enabled= false; 
+            TablePnlTop.Enabled = false;
             if (DgvMoniteurs.CurrentRow != null)
             {
-                TxtNom.Text=DgvMoniteurs.CurrentRow.Cells[1].Value.ToString();
+                TxtNom.Text = DgvMoniteurs.CurrentRow.Cells[1].Value.ToString();
                 TxtPrénom.Text = DgvMoniteurs.CurrentRow.Cells[2].Value.ToString();
-                TxtHeures.Text = DgvMoniteurs.CurrentRow.Cells[4].Value.ToString();
-                TxtSalaire.Text = DgvMoniteurs.CurrentRow.Cells[3].Value.ToString();
-                TxtNumTel.Text = DgvMoniteurs.CurrentRow.Cells[5].Value.ToString();
+                TxtNumero.Text = DgvMoniteurs.CurrentRow.Cells[3].Value.ToString();
+                TxtSalaire.Text = DgvMoniteurs.CurrentRow.Cells[4].Value.ToString();
+                TxtHeures.Text = DgvMoniteurs.CurrentRow.Cells[5].Value.ToString();
+
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DgvMoniteurs.Height = 430;
+            LblTitle.Text = "";
+            TablePnlTop.Enabled = true;
+        }
     }
 }
-
-

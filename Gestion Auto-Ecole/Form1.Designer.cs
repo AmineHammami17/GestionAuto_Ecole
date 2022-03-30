@@ -83,9 +83,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(83, 389);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 17);
+            this.label1.Size = new System.Drawing.Size(129, 17);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Show Password";
+            this.label1.Text = "Afficher mot de pass";
             // 
             // signup1
             // 
@@ -105,7 +105,7 @@
             this.signup1.ShadowDecoration.Parent = this.signup1;
             this.signup1.Size = new System.Drawing.Size(104, 40);
             this.signup1.TabIndex = 8;
-            this.signup1.Text = "Sign up";
+            this.signup1.Text = "S\'inscrire";
             this.signup1.Click += new System.EventHandler(this.signup1_Click);
             // 
             // guna2Button1
@@ -124,7 +124,7 @@
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(104, 40);
             this.guna2Button1.TabIndex = 7;
-            this.guna2Button1.Text = "Login";
+            this.guna2Button1.Text = "Se Connecter";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2ToggleSwitch1
@@ -167,7 +167,7 @@
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Password";
+            this.guna2TextBox2.PlaceholderText = "Mot de pass";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Size = new System.Drawing.Size(301, 44);
@@ -211,6 +211,7 @@
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 2;
             this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2PictureBox1
             // 

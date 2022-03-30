@@ -13,10 +13,15 @@ E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion Auto-Ecole.e
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion Auto-Ecole.pdb
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\bin\Debug\Siticone.UI.dll
-E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\bin\Debug\Bunifu.Licensing.dll
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion Auto-Ecole.exe.config
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion Auto-Ecole.exe.licenses
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.SignupForm.resources
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.MainMenu.resources
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Moniteurs.resources
 E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Voitures.resources
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Tarifs.resources
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Fiche.resources
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Formation.resources
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Historique.resources
+E:\Projects\Gestion Auto-Ecole\Gestion Auto-Ecole\obj\Debug\Gestion_Auto_Ecole.Programme.resources

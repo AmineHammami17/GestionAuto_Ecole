@@ -140,7 +140,7 @@
             this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "Confirm Password";
+            this.guna2TextBox3.PlaceholderText = "Confirmer votre mot de pass";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
             this.guna2TextBox3.Size = new System.Drawing.Size(301, 44);
@@ -154,9 +154,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(79, 475);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 17);
+            this.label1.Size = new System.Drawing.Size(129, 17);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Show Password";
+            this.label1.Text = "Afficher mot de pass";
             // 
             // guna2Button2
             // 
@@ -176,7 +176,7 @@
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(104, 40);
             this.guna2Button2.TabIndex = 8;
-            this.guna2Button2.Text = "Sign up";
+            this.guna2Button2.Text = "S\'inscrire";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2ToggleSwitch1
@@ -219,7 +219,7 @@
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Password";
+            this.guna2TextBox2.PlaceholderText = "Mot de pass";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Size = new System.Drawing.Size(301, 44);

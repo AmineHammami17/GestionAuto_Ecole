@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>C:\Users\DELL\Desktop\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
       <HintPath>C:\Users\DELL\Desktop\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
@@ -45,6 +49,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,11 +62,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fiche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiche.Designer.cs">
+      <DependentUpon>Fiche.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formation.Designer.cs">
+      <DependentUpon>Formation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historique.Designer.cs">
+      <DependentUpon>Historique.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -76,6 +99,12 @@
       <DependentUpon>Moniteurs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Programme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programme.Designer.cs">
+      <DependentUpon>Programme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignupForm.cs">
       <SubType>Form</SubType>
@@ -83,20 +112,38 @@
     <Compile Include="SignupForm.Designer.cs">
       <DependentUpon>SignupForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarifs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarifs.Designer.cs">
+      <DependentUpon>Tarifs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Voitures.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Voitures.Designer.cs">
       <DependentUpon>Voitures.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Fiche.resx">
+      <DependentUpon>Fiche.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formation.resx">
+      <DependentUpon>Formation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historique.resx">
+      <DependentUpon>Historique.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Moniteurs.resx">
       <DependentUpon>Moniteurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programme.resx">
+      <DependentUpon>Programme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -111,6 +158,9 @@
     </Compile>
     <EmbeddedResource Include="SignupForm.resx">
       <DependentUpon>SignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarifs.resx">
+      <DependentUpon>Tarifs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Voitures.resx">
       <DependentUpon>Voitures.cs</DependentUpon>

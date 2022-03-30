@@ -20,6 +20,8 @@ namespace Gestion_Auto_Ecole
 
         private void button5_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Programme());
+
             hideSubMenu();
         }
      
@@ -28,6 +30,7 @@ namespace Gestion_Auto_Ecole
         {
             panelBureau.Visible = false;
             panelClients.Visible = false;
+            PanelParametres.Visible = false;    
 
         }
         private void showSubMenu(Panel subMenu)
@@ -69,18 +72,23 @@ namespace Gestion_Auto_Ecole
 
         private void button2_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Fiche());
             hideSubMenu();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Historique());
+
             hideSubMenu();
 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Formation());
+
             hideSubMenu();
 
         }
@@ -94,6 +102,8 @@ namespace Gestion_Auto_Ecole
 
         private void button8_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Tarifs());
+
             hideSubMenu();
 
         }
@@ -117,6 +127,11 @@ namespace Gestion_Auto_Ecole
             Form1 form1 = new Form1();
             form1.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            showSubMenu(PanelParametres);
         }
     }
 }
